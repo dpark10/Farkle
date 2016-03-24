@@ -65,13 +65,13 @@
 				E2EE72B31CA4729100D7F7D0 /* AppDelegate.m */,
 				E2EE72B51CA4729100D7F7D0 /* ViewController.h */,
 				E2EE72B61CA4729100D7F7D0 /* ViewController.m */,
+				251E20B21CA4748200B0312E /* DieLabel.h */,
+				251E20B31CA4748200B0312E /* DieLabel.m */,
 				E2EE72B81CA4729100D7F7D0 /* Main.storyboard */,
 				E2EE72BB1CA4729100D7F7D0 /* Assets.xcassets */,
 				E2EE72BD1CA4729100D7F7D0 /* LaunchScreen.storyboard */,
 				E2EE72C01CA4729100D7F7D0 /* Info.plist */,
 				E2EE72AF1CA4729100D7F7D0 /* Supporting Files */,
-				251E20B21CA4748200B0312E /* DieLabel.h */,
-				251E20B31CA4748200B0312E /* DieLabel.m */,
 			);
 			path = Farkle;
 			sourceTree = "<group>";

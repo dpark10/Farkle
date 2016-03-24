@@ -10,6 +10,8 @@
 
 @implementation DieLabel
 
-
+- (void)roll {
+    NSLog(@"Die Label Tapped");
+}
 
 @end
