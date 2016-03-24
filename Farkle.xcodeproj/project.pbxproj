@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251E20B41CA4748200B0312E /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 251E20B31CA4748200B0312E /* DieLabel.m */; };
 		E2EE72B11CA4729100D7F7D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE72B01CA4729100D7F7D0 /* main.m */; };
 		E2EE72B41CA4729100D7F7D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE72B31CA4729100D7F7D0 /* AppDelegate.m */; };
 		E2EE72B71CA4729100D7F7D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE72B61CA4729100D7F7D0 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		251E20B21CA4748200B0312E /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieLabel.h; sourceTree = "<group>"; };
+		251E20B31CA4748200B0312E /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieLabel.m; sourceTree = "<group>"; };
 		E2EE72AC1CA4729100D7F7D0 /* Farkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EE72B01CA4729100D7F7D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2EE72B21CA4729100D7F7D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				E2EE72BD1CA4729100D7F7D0 /* LaunchScreen.storyboard */,
 				E2EE72C01CA4729100D7F7D0 /* Info.plist */,
 				E2EE72AF1CA4729100D7F7D0 /* Supporting Files */,
+				251E20B21CA4748200B0312E /* DieLabel.h */,
+				251E20B31CA4748200B0312E /* DieLabel.m */,
 			);
 			path = Farkle;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				E2EE72B71CA4729100D7F7D0 /* ViewController.m in Sources */,
 				E2EE72B41CA4729100D7F7D0 /* AppDelegate.m in Sources */,
 				E2EE72B11CA4729100D7F7D0 /* main.m in Sources */,
+				251E20B41CA4748200B0312E /* DieLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +308,7 @@
 				E2EE72C51CA4729100D7F7D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
