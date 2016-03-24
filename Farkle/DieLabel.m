@@ -30,12 +30,14 @@
 -(void)tapHandler:(UITapGestureRecognizer *)gestureRecognizer {
     
     if(gestureRecognizer.state == UIGestureRecognizerStateEnded) {
-        
-//       CGPoint location = [gestureRecognizer locationInView:gestureRecognizer.view];
-        NSLog(@"Tapped");
-    
+        NSLog(@"tapped");
         
     }
+}
+
+-(void)roll:(UILabel *)label {
+    int randomNumber = arc4random_uniform(5);
+    label.text = [NSString stringWithFormat:@"%i", randomNumber];
 }
 
 @end

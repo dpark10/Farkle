@@ -7,10 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "DieLabel.h"
+//#import "DieLabel.h"
 
 @interface ViewController ()
-@property DieLabel *dieLabel;
+//@property DieLabel *dieLabel;
 
 @end
 
