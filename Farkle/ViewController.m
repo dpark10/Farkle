@@ -10,7 +10,6 @@
 #import "DieLabel.h"
 
 @interface ViewController ()
-
 @property DieLabel *dieLabel;
 
 @end
@@ -19,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
 }
 
 @end
