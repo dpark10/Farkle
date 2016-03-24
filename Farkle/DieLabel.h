@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@class DieLabel;
+
+@protocol DieLabelDelegate <NSObject>
+
+
+@end
+
 @interface DieLabel : UILabel
 
--(void)roll:(UILabel *)label;
+@property (nonatomic,assign) id<DieLabelDelegate>delegate;
+-(void)roll;
+
+
 
 @end

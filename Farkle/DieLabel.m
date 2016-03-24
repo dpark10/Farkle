@@ -10,7 +10,6 @@
 
 @interface DieLabel() <UIGestureRecognizerDelegate>
 
-
 @end
 
 @implementation DieLabel
@@ -28,16 +27,12 @@
 }
 
 -(void)tapHandler:(UITapGestureRecognizer *)gestureRecognizer {
-    
-    if(gestureRecognizer.state == UIGestureRecognizerStateEnded) {
-        NSLog(@"tapped");
-        
-    }
+    NSLog(@"tapped");
 }
 
--(void)roll:(UILabel *)label {
-    int randomNumber = arc4random_uniform(5);
-    label.text = [NSString stringWithFormat:@"%i", randomNumber];
+-(void)roll {
+    int randomNumber = arc4random_uniform(6);
+    self.text = [NSString stringWithFormat:@"%i", randomNumber + 1];
 }
 
 @end

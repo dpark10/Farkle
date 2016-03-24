@@ -7,10 +7,11 @@
 //
 
 #import "ViewController.h"
-//#import "DieLabel.h"
+#import "DieLabel.h"
 
-@interface ViewController ()
-//@property DieLabel *dieLabel;
+@interface ViewController () <DieLabelDelegate>
+@property DieLabel *dieLabel;
+@property (strong, nonatomic) IBOutletCollection(DieLabel) NSArray *dieLabels;
 
 @end
 
@@ -19,7 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
 }
+
+- (IBAction)onRollPressed:(UIButton *)sender {
+    for (DieLabel *dieLabel in self.dieLabels) {
+        [dieLabel roll];
+    }
+}
+
 
 @end
